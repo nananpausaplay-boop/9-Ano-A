@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff6eb">
+  <meta name="description" content="Um cantinho para guardar as lembranças do 9º A.">
+  <title>9º A — Memórias que ficam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/carousel.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Página inicial do 9º A">9º A</a>
+    <span class="topbar-note">um capítulo para guardar com carinho</span>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> nossa história, do nosso jeito</p>
+        <h1 id="hero-title">Tem coisa que<br>fica <em>pra sempre.</em></h1>
+        <p class="hero-text">Entre conversas, broncas, fofocas e dias que passaram voando, construímos lembranças que vão com a gente.</p>
+        <a class="hero-link" href="#memorias">Rever nossas memórias <span aria-hidden="true">↓</span></a>
+      </div>
+      <button class="hero-art" type="button" aria-label="Animar as frases ao redor do planeta" aria-pressed="false">
+        <div class="sun"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <span class="spark spark-one">✳</span><span class="spark spark-two">✳</span>
+        <span class="orbit-label art-note">feito de<br>momentos </span>
+        <span class="orbit-label hero-stamp"><br><b>9º A</b></span>
+      </button>
+    </section>
+
+    <section class="memories" id="memorias" aria-labelledby="memories-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow"><span></span> fotos da turma</p>
+          <h2 id="memories-title">Um pouquinho de <em>vários momentos</em></h2>
+        </div>
+        <p class="section-intro">Cada foto tem partículas de diversos momentos que vivemos: estresses, fofocas e celebrações.</p>
+      </div>
+
+      <div class="carousel" aria-roledescription="carrossel" aria-label="Fotos de momentos do 9º A">
+        <div class="photo-frame">
+          <img id="carousel-image" src="" alt="" />
+        </div>
+        <div class="carousel-footer">
+          <div class="carousel-controls">
+            <button class="arrow-button" id="previous" type="button" aria-label="Foto anterior">←</button>
+            <button class="arrow-button arrow-next" id="next" type="button" aria-label="Próxima foto">→</button>
+          </div>
+        </div>
+        <div class="progress-track" aria-hidden="true"><span id="progress"></span></div>
+      </div>
+      <p class="swipe-hint">Use as setas ou deslize para ver mais fotos <span aria-hidden="true">↔</span></p>
+    </section>
+
+    <section class="letter" aria-labelledby="letter-title">
+      <div class="letter-inner">
+        
+        <h2 id="letter-title">Apenas um pedaço <em>da caminhada</em></h2>
+
+        <p>Muitos de vocês eu já conheço há muito tempo. Alguns foram meus primeiros alunos — vocês têm noção disso? kkkk —, e outros conheci neste ano. Ainda assim, todos vocês fazem residência no meu coração, no meu afeto e na minha consideração.</p>
+
+        <p>Olho para a minha vida e sei que, se eu perguntasse ao Renan de dez anos atrás — que tinha exatamente a idade que a maioria de vocês tem hoje —, ele até tiraria sarro, de forma sarcástica, da possibilidade de eu me tornar professor, de me tornar amigo dos meus alunos e de ser convidado para ser paraninfo deles. Aliás, ele perguntaria, de forma autêntica: “Que p0rr4 é um paraninfo?”. Depois que lhe explicassem, ele diria: “Seu c#”. Perdão pelo palavreado, mas quis deixar bem claro o que ele diria. Às vezes, há momentos em que penso como o Renan adolescente e simplesmente fico incrédulo com tudo isso, que, há muito tempo, parecia impensável.</p>
+
+        <p>Tive orgulho de fazer parte de um pequeno trecho da longa trajetória que vocês ainda terão pela frente. Hoje, vocês concluem uma etapa. Orgulhem-se dela, mas também se lembrem de que uma nova etapa começa. Vocês precisarão de empenho, foco e determinação. No dia em que essas coisas lhes faltarem, ou em que precisarem de um conselho ou de apoio, vocês sabem onde me encontrar.</p>
+
+        <p>Eu carregarei cada um de vocês comigo. Vocês me marcaram, e espero ter marcado vocês pelo menos metade do quanto vocês me marcaram.</p>
+      </div>
+    </section>
+
+    <section class="closing">
+      <span class="closing-flower" aria-hidden="true">✿</span>
+      <p>Nunca é um adeus. <em>Então, até logo!</em></p>
+      <span class="closing-signature">de seu professor e amigo, Renan</span>
+    </section>
+  </main>
+
+  <footer><span>9º A</span><span>Vocês fazem parte de memórias que levarei para sempre.</span><span aria-hidden="true">♡</span></footer>
+</body>
+</html>
